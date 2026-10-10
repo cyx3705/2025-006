@@ -1,0 +1,26 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+b-EPLAN/N0000.edb/Images/EPLAN.jpg -text
+b-EPLAN/N0000.edb/Images/EPLAN_LOGO.BMP -text
+b-Module-2D/工程图.dwg -text
+b-Module-SE/0-装配体.asm -text
+b-Module-SE/0-装配体.cfg -text
+b-Module-SE/零件.par -text
+b-Module-SW/0-装配体.SLDASM -text
+b-Module-SW/零件.SLDPRT -text
+b-Office/机器人的过去现在与未来.docx -text
+b-Office/机器人的过去现在与未来.pptx -text
+b-Picture/微信图片_20240528002947.jpg -text
+b-Picture/微信图片_20240528003001.jpg -text
+b-Picture/微信图片_20240528003006.jpg -text
+"b-Video/Adobe Premiere Pro Auto-Save/机器人与我们的未来-2024-05-28_08-11-15.prproj" -text
+"b-Video/Adobe Premiere Pro Auto-Save/机器人与我们的未来.prproj" -text
+"b-Video/KuGou 2024.05.27 - 23.50.00.01.mp4" -text
+
+# HistoryJanus lfs begin
+# 本块由 HistoryJanus 维护，只列 ≥100MB 的具体文件（前导 / 锚定到仓库根）。
+# 不到 100MB 的文件一律不走 LFS；本块之外不允许出现 filter=lfs。
+# 改决定请用 Janus「LFS 规则」子页或 janus.gitrule.lfsset。
+# HistoryJanus lfs end
